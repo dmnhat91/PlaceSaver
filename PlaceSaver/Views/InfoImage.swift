@@ -28,7 +28,7 @@ struct InfoImage: View {
 
 struct InfoImage_Previews: PreviewProvider {
     static var previews: some View {
-        SquareImage(image: Image("nh-walking-street"), backgroundImage: Image("nh-walking-street-bg"))
+        InfoImage(image: Image("nh-walking-street"), backgroundImage: Image("nh-walking-street-bg"))
             .previewLayout(.sizeThatFits)
     }
 }
