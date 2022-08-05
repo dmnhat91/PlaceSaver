@@ -1,13 +1,13 @@
 //
-//  SquareImage.swift
+//  InfoImage.swift
 //  PlaceSaver
 //
-//  Created by Duong Minh Nhat on 04/08/2022.
+//  Created by Duong Minh Nhat on 05/08/2022.
 //
 
 import SwiftUI
 
-struct SquareImage: View {
+struct InfoImage: View {
     var image: Image
     var backgroundImage: Image
     
@@ -26,8 +26,9 @@ struct SquareImage: View {
     }
 }
 
-struct SquareImage_Previews: PreviewProvider {
+struct InfoImage_Previews: PreviewProvider {
     static var previews: some View {
-        SquareImage(image: Image("nh-walking-street"), backgroundImage: Image("nh-walking-street-bg")).previewLayout(.sizeThatFits)
+        SquareImage(image: Image("nh-walking-street"), backgroundImage: Image("nh-walking-street-bg"))
+            .previewLayout(.sizeThatFits)
     }
 }
