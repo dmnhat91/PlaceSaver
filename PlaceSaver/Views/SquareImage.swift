@@ -20,6 +20,8 @@ struct SquareImage: View {
                 .clipShape(Rectangle())
                 .overlay(Rectangle().stroke(Color(.white),lineWidth: 4))
                 .shadow(radius: 1)
+                .offset(y: -100)
+                .padding(.bottom, -100)
         }
     }
 }
