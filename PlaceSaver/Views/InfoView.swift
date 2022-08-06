@@ -33,8 +33,10 @@ struct InfoView: View {
                 HorizontalText(content: place.description, isHeadline: false)
                 HorizontalText(content: "Location", isHeadline: true)
                 InfoText(imageName: "mappin.circle", text: place.address)
-                MapView(coordinate: place.locationCoordinate)
+                MapView(place: place)
                     .frame(height: 250)
+                HorizontalText(content: "Photos", isHeadline: true)
+                
             }
             
         }
