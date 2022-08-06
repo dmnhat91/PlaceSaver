@@ -13,7 +13,7 @@ struct InfoList: View {
     var body: some View {
         NavigationView {
                 List() {
-                    ForEach(cities) { city in
+                    ForEach(searchResults) { city in
                         Section(header: Text("\(city.name)")) {
                             ForEach(city.places) { place in
                                 NavigationLink{
@@ -25,18 +25,17 @@ struct InfoList: View {
                         }
                     }
                 }
-//                .searchable(text: $searchText)
                 .navigationTitle("My favorite places ⭐️")
-        }
+        }.searchable(text: $searchText)
     }
     
-//    var searchResults: [City] {
-//        if searchText.isEmpty {
-//            return cities
-//        } else {
-//            return cities.filter { $0.name.contains(searchText) }
-//        }
-//    }
+    var searchResults: [City] {
+        if searchText.isEmpty {
+            return cities
+        } else {
+            return cities.filter { $0.name.contains(searchText) }
+        }
+    }
 }
 
 struct InfoList_Previews: PreviewProvider {
