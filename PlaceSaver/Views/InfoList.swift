@@ -8,9 +8,35 @@
 import SwiftUI
 
 struct InfoList: View {
+    @State private var searchText = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+                List() {
+                    ForEach(cities) { city in
+                        Section(header: Text("\(city.name)")) {
+                            ForEach(city.places) { place in
+                                NavigationLink{
+                                    InfoView(place: place)
+                                } label: {
+                                    InfoRow(place: place)
+                                }
+                            }
+                        }
+                    }
+                }
+//                .searchable(text: $searchText)
+                .navigationTitle("My favorite places ⭐️")
+        }
     }
+    
+//    var searchResults: [City] {
+//        if searchText.isEmpty {
+//            return cities
+//        } else {
+//            return cities.filter { $0.name.contains(searchText) }
+//        }
+//    }
 }
 
 struct InfoList_Previews: PreviewProvider {
