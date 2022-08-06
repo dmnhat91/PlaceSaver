@@ -32,6 +32,8 @@ struct Place: Identifiable, Codable{
             longitude: coordinates.longitude
         )
     }
+    
+    var subImageList: [String]
 }
 
 struct Coordinates: Codable {

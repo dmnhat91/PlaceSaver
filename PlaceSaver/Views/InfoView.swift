@@ -36,7 +36,7 @@ struct InfoView: View {
                 MapView(place: place)
                     .frame(height: 250)
                 HorizontalText(content: "Photos", isHeadline: true)
-                
+                ImageMatrixView(imageNames: place.subImageList)
             }
             
         }

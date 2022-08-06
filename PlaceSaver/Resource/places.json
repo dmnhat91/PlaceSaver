@@ -9,6 +9,7 @@
       "coordinates": {
           "latitude": 10.775902404878984,
           "longitude": 106.70380842148595
-      }
+      },
+      "subImageList": ["nh-walking-street-sub1","nh-walking-street-sub2","nh-walking-street-sub3","nh-walking-street-sub4"]
     }
 ]

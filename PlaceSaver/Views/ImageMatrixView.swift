@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ImageMatrixView: View {
-    var imageNames = ["nh-walking-street-sub1","nh-walking-street-sub2","nh-walking-street-sub3","nh-walking-street-sub4"]
+    var imageNames : [String]
     
     var body: some View {
+        
         VStack(alignment: .leading){
             GeometryReader { geo in
                 ScrollView {
@@ -27,12 +28,12 @@ struct ImageMatrixView: View {
                     }
                 }
             }
-        }
+        }.frame(height: 375)
     }
 }
 
 struct ImageMatrixView_Previews: PreviewProvider {
     static var previews: some View {
-        ImageMatrixView()
+        ImageMatrixView(imageNames: places[0].subImageList)
     }
 }
