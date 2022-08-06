@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ImageMatrixView: View {
-    let posts = ["square.and.arrow.up", "square.and.arrow.up.fill", "square.and.arrow.down", "square.and.arrow.down.on.square.fill"]
+    var imageNames = ["nh-walking-street-sub1","nh-walking-street-sub2","nh-walking-street-sub3","nh-walking-street-sub4"]
     
     var body: some View {
         VStack(alignment: .leading){
@@ -19,11 +19,10 @@ struct ImageMatrixView: View {
                         GridItem(.flexible()),
                         GridItem(.flexible())
                      ], spacing: 3){
-                         ForEach(posts, id: \.self){
-                             post in Image(systemName: post)
+                         ForEach(imageNames, id: \.self){
+                             imageName in Image(imageName)
+                                 .resizable()
                                  .frame(width: geo.size.width/3, height: geo.size.width/3)
-                                 .background(Color.pink)
-                                 .foregroundColor(Color.white)
                          }
                     }
                 }
