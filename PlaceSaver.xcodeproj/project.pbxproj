@@ -24,6 +24,8 @@
 		BCF03CB4289E5E110034C16A /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CB3289E5E110034C16A /* City.swift */; };
 		BCF03CB6289E6A330034C16A /* InfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CB5289E6A330034C16A /* InfoList.swift */; };
 		BCF03CB9289EA6A90034C16A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CB8289EA6A90034C16A /* WelcomeView.swift */; };
+		BCF03CBB289EA6EB0034C16A /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CBA289EA6EB0034C16A /* GreetingView.swift */; };
+		BCF03CBF289EA9CA0034C16A /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CBE289EA9CA0034C16A /* ColorConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		BCF03CB3289E5E110034C16A /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		BCF03CB5289E6A330034C16A /* InfoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoList.swift; sourceTree = "<group>"; };
 		BCF03CB8289EA6A90034C16A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		BCF03CBA289EA6EB0034C16A /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		BCF03CBE289EA9CA0034C16A /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		BCF03C9B289E145F0034C16A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BCF03CBE289EA9CA0034C16A /* ColorConstants.swift */,
 				BCF03C9E289E14A20034C16A /* Place.swift */,
 				BCF03CA5289E16C10034C16A /* ModelData.swift */,
 				BCF03CB3289E5E110034C16A /* City.swift */,
@@ -134,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				BCF03CB8289EA6A90034C16A /* WelcomeView.swift */,
+				BCF03CBA289EA6EB0034C16A /* GreetingView.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -211,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9D75D8289C130B006CE777 /* ContentView.swift in Sources */,
+				BCF03CBB289EA6EB0034C16A /* GreetingView.swift in Sources */,
 				BCF03CB6289E6A330034C16A /* InfoList.swift in Sources */,
 				BC4624B1289D0D8800236DC5 /* MapView.swift in Sources */,
 				BCF03CA8289E1E7B0034C16A /* InfoText.swift in Sources */,
@@ -220,6 +227,7 @@
 				BCF03CB9289EA6A90034C16A /* WelcomeView.swift in Sources */,
 				BCF03CAA289E29310034C16A /* ImageMatrixView.swift in Sources */,
 				BCF03CB4289E5E110034C16A /* City.swift in Sources */,
+				BCF03CBF289EA9CA0034C16A /* ColorConstants.swift in Sources */,
 				BCF03C9A289E0C7A0034C16A /* HorizontalText.swift in Sources */,
 				BC9D75D6289C130B006CE777 /* PlaceSaverApp.swift in Sources */,
 				BCF03CA6289E16C10034C16A /* ModelData.swift in Sources */,
