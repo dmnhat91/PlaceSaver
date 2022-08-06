@@ -15,10 +15,14 @@
 		BC9D75DD289C130E006CE777 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9D75DC289C130E006CE777 /* Preview Assets.xcassets */; };
 		BCF03C9A289E0C7A0034C16A /* HorizontalText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03C99289E0C7A0034C16A /* HorizontalText.swift */; };
 		BCF03C9F289E14A20034C16A /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03C9E289E14A20034C16A /* Place.swift */; };
-		BCF03CA4289E16960034C16A /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF03CA3289E16960034C16A /* places.json */; };
 		BCF03CA6289E16C10034C16A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CA5289E16C10034C16A /* ModelData.swift */; };
 		BCF03CA8289E1E7B0034C16A /* InfoText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CA7289E1E7B0034C16A /* InfoText.swift */; };
 		BCF03CAA289E29310034C16A /* ImageMatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CA9289E29310034C16A /* ImageMatrixView.swift */; };
+		BCF03CAC289E5A9C0034C16A /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CAB289E5A9C0034C16A /* InfoRow.swift */; };
+		BCF03CAE289E5D120034C16A /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF03CAD289E5D110034C16A /* cities.json */; };
+		BCF03CB0289E5D480034C16A /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF03CAF289E5D480034C16A /* places.json */; };
+		BCF03CB4289E5E110034C16A /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CB3289E5E110034C16A /* City.swift */; };
+		BCF03CB6289E6A330034C16A /* InfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CB5289E6A330034C16A /* InfoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +35,14 @@
 		BC9D75DC289C130E006CE777 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCF03C99289E0C7A0034C16A /* HorizontalText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalText.swift; sourceTree = "<group>"; };
 		BCF03C9E289E14A20034C16A /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
-		BCF03CA3289E16960034C16A /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
 		BCF03CA5289E16C10034C16A /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		BCF03CA7289E1E7B0034C16A /* InfoText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoText.swift; sourceTree = "<group>"; };
 		BCF03CA9289E29310034C16A /* ImageMatrixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMatrixView.swift; sourceTree = "<group>"; };
+		BCF03CAB289E5A9C0034C16A /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
+		BCF03CAD289E5D110034C16A /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		BCF03CAF289E5D480034C16A /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
+		BCF03CB3289E5E110034C16A /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		BCF03CB5289E6A330034C16A /* InfoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,8 @@
 				BCF03C99289E0C7A0034C16A /* HorizontalText.swift */,
 				BCF03CA7289E1E7B0034C16A /* InfoText.swift */,
 				BCF03CA9289E29310034C16A /* ImageMatrixView.swift */,
+				BCF03CAB289E5A9C0034C16A /* InfoRow.swift */,
+				BCF03CB5289E6A330034C16A /* InfoList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -103,6 +113,7 @@
 			children = (
 				BCF03C9E289E14A20034C16A /* Place.swift */,
 				BCF03CA5289E16C10034C16A /* ModelData.swift */,
+				BCF03CB3289E5E110034C16A /* City.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,7 +121,8 @@
 		BCF03CA0289E16130034C16A /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				BCF03CA3289E16960034C16A /* places.json */,
+				BCF03CAF289E5D480034C16A /* places.json */,
+				BCF03CAD289E5D110034C16A /* cities.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -173,9 +185,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF03CA4289E16960034C16A /* places.json in Resources */,
+				BCF03CAE289E5D120034C16A /* cities.json in Resources */,
 				BC9D75DD289C130E006CE777 /* Preview Assets.xcassets in Resources */,
 				BC9D75DA289C130E006CE777 /* Assets.xcassets in Resources */,
+				BCF03CB0289E5D480034C16A /* places.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,11 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9D75D8289C130B006CE777 /* ContentView.swift in Sources */,
+				BCF03CB6289E6A330034C16A /* InfoList.swift in Sources */,
 				BC4624B1289D0D8800236DC5 /* MapView.swift in Sources */,
 				BCF03CA8289E1E7B0034C16A /* InfoText.swift in Sources */,
 				BC4624B3289D0DDE00236DC5 /* InfoView.swift in Sources */,
+				BCF03CAC289E5A9C0034C16A /* InfoRow.swift in Sources */,
 				BCF03C9F289E14A20034C16A /* Place.swift in Sources */,
 				BCF03CAA289E29310034C16A /* ImageMatrixView.swift in Sources */,
+				BCF03CB4289E5E110034C16A /* City.swift in Sources */,
 				BCF03C9A289E0C7A0034C16A /* HorizontalText.swift in Sources */,
 				BC9D75D6289C130B006CE777 /* PlaceSaverApp.swift in Sources */,
 				BCF03CA6289E16C10034C16A /* ModelData.swift in Sources */,

@@ -45,7 +45,7 @@ struct InfoView: View {
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoView(place: places[0])
+        InfoView(place: cities[1].places[0])
 //            .previewLayout(.sizeThatFits)
     }
 }

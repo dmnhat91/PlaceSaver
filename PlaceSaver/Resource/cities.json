@@ -1,0 +1,55 @@
+[
+    {
+       "id": 8,
+       "name": "Ho Chi Minh",
+       "places":
+       [
+           {
+             "id": 10000,
+             "name": "Nguyen Hue Walking Street",
+             "description": "Wide, tree-lined pedestrian street popular for evening walks & known for new year floral displays.",
+             "address": "22 Nguyen Hue, Ben Nghe, District 1, Ho Chi Minh City",
+             "imageName": "nh-walking-street",
+             "bgImageName": "nh-walking-street-bg",
+             "coordinates": {
+                 "latitude": 10.775902404878984,
+                 "longitude": 106.70380842148595
+             },
+             "subImageList": ["nh-walking-street-sub1","nh-walking-street-sub2","nh-walking-street-sub3","nh-walking-street-sub4"]
+           },
+           {
+             "id": 10001,
+             "name": "Nguyet Hy Hotpot",
+             "description": "Amazingly good location to have hotpot of your choice. Customize your hotpot with a wide range of seasoning stuff.",
+             "address": "194 Nguyen Tri Phuong, District 10, Ho Chi Minh City",
+             "imageName": "lau-nhung-nguyet-hy",
+             "bgImageName": "lau-nhung-nguyet-hy-bg",
+             "coordinates": {
+                 "latitude": 10.760744993014407,
+                 "longitude": 106.66888357973794
+             },
+             "subImageList": ["lau-nhung-nguyet-hy-sub1","lau-nhung-nguyet-hy-sub2","lau-nhung-nguyet-hy-sub3","lau-nhung-nguyet-hy-sub4","lau-nhung-nguyet-hy-sub5"]
+           }
+       ]
+    },
+    {
+       "id": 64,
+       "name": "Vung Tau",
+       "places":
+       [
+           {
+             "id": 20000,
+             "name": "Hoang Minh Ray Hotpot",
+             "description": "Specialised in ray hotpot as best seller. Besides, there are other variety range of food",
+             "address": "44 Truong Cong Dinh, Vung Tau City",
+             "imageName": "hm-ca-duoi",
+             "bgImageName": "hm-ca-duoi-bg",
+             "coordinates": {
+                 "latitude": 10.346670211749657,
+                 "longitude": 107.07986073837044
+             },
+             "subImageList": ["hm-ca-duoi-sub1","hm-ca-duoi-sub2"]
+           }
+       ]
+    }
+]
