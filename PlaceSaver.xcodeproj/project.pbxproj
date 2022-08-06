@@ -23,6 +23,7 @@
 		BCF03CB0289E5D480034C16A /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF03CAF289E5D480034C16A /* places.json */; };
 		BCF03CB4289E5E110034C16A /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CB3289E5E110034C16A /* City.swift */; };
 		BCF03CB6289E6A330034C16A /* InfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CB5289E6A330034C16A /* InfoList.swift */; };
+		BCF03CB9289EA6A90034C16A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CB8289EA6A90034C16A /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		BCF03CAF289E5D480034C16A /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
 		BCF03CB3289E5E110034C16A /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		BCF03CB5289E6A330034C16A /* InfoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoList.swift; sourceTree = "<group>"; };
+		BCF03CB8289EA6A90034C16A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		BC9D75E5289C1586006CE777 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BCF03CB7289EA6890034C16A /* Welcome */,
 				BC9D75D7289C130B006CE777 /* ContentView.swift */,
 				BC4624B0289D0D8800236DC5 /* MapView.swift */,
 				BC4624B2289D0DDE00236DC5 /* InfoView.swift */,
@@ -125,6 +128,14 @@
 				BCF03CAD289E5D110034C16A /* cities.json */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		BCF03CB7289EA6890034C16A /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				BCF03CB8289EA6A90034C16A /* WelcomeView.swift */,
+			);
+			path = Welcome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +217,7 @@
 				BC4624B3289D0DDE00236DC5 /* InfoView.swift in Sources */,
 				BCF03CAC289E5A9C0034C16A /* InfoRow.swift in Sources */,
 				BCF03C9F289E14A20034C16A /* Place.swift in Sources */,
+				BCF03CB9289EA6A90034C16A /* WelcomeView.swift in Sources */,
 				BCF03CAA289E29310034C16A /* ImageMatrixView.swift in Sources */,
 				BCF03CB4289E5E110034C16A /* City.swift in Sources */,
 				BCF03C9A289E0C7A0034C16A /* HorizontalText.swift in Sources */,
