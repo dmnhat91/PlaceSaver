@@ -35,7 +35,7 @@ struct GreetingView: View {
                 Spacer()
                 
                 Button(action: {
-//                    active = false
+                    active = false
                 }, label: {
                     Capsule()
                       .fill(ColorConstants.heavyGreen)
