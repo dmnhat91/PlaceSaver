@@ -8,34 +8,30 @@
 import SwiftUI
 
 struct InfoView: View {
-    var image: Image
-    var backgroundImage: Image
+    var place: Place
     
     var body: some View {
         ScrollView {
             VStack {
-                backgroundImage
+                place.bgImage
                     .resizable()
                     .edgesIgnoringSafeArea(.top)
                     .frame(height: 250)
                     .scaledToFit()
-                image
+                place.image
                     .clipShape(Rectangle())
                     .overlay(Rectangle().stroke(Color(.white),lineWidth: 1))
                     .shadow(radius: 1)
                     .offset(y: -100)
                     .padding(.bottom, -100)
-                Text("Nguyen Hue Walking Street")
+                Text(place.name)
                     .frame(width: 350)
                     .font(.title)
                     .scaledToFit()
                     .padding(.bottom)
-                HStack {
-                    Text("Description")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.leading)
-                    Spacer()
+                VStack {
+                    HorizontalText(content: "Description", isHeadline: true).padding(.bottom, 8)
+                    HorizontalText(content: place.description, isHeadline: false)
                 }
             }
             
@@ -45,7 +41,7 @@ struct InfoView: View {
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoView(image: Image("nh-walking-street"), backgroundImage: Image("nh-walking-street-bg"))
+        InfoView(place: places[0])
 //            .previewLayout(.sizeThatFits)
     }
 }

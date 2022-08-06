@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "name": "Nguyen Hue Walking Street",
+      "description": "Nguyen Hue Walking Street is a place where there are a lot of cute girls standing nearby. If you want to have a girlfriend, just ask for her contact.",
+      "address": "22 Nguyen Hue, Ben Nghe, District 1, Ho Chi Minh City",
+      "imageName": "nh-walking-street",
+      "bgImageName": "nh-walking-street-bg",
+      "coordinates": {
+          "latitude": 10.775902404878984,
+          "longitude": 106.70380842148595
+      }
+    }
+]
