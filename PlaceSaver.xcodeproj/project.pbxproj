@@ -17,6 +17,7 @@
 		BCF03C9F289E14A20034C16A /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03C9E289E14A20034C16A /* Place.swift */; };
 		BCF03CA4289E16960034C16A /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF03CA3289E16960034C16A /* places.json */; };
 		BCF03CA6289E16C10034C16A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CA5289E16C10034C16A /* ModelData.swift */; };
+		BCF03CA8289E1E7B0034C16A /* InfoText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF03CA7289E1E7B0034C16A /* InfoText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BCF03C9E289E14A20034C16A /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		BCF03CA3289E16960034C16A /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
 		BCF03CA5289E16C10034C16A /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		BCF03CA7289E1E7B0034C16A /* InfoText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				BC4624B0289D0D8800236DC5 /* MapView.swift */,
 				BC4624B2289D0DDE00236DC5 /* InfoView.swift */,
 				BCF03C99289E0C7A0034C16A /* HorizontalText.swift */,
+				BCF03CA7289E1E7B0034C16A /* InfoText.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				BC9D75D8289C130B006CE777 /* ContentView.swift in Sources */,
 				BC4624B1289D0D8800236DC5 /* MapView.swift in Sources */,
+				BCF03CA8289E1E7B0034C16A /* InfoText.swift in Sources */,
 				BC4624B3289D0DDE00236DC5 /* InfoView.swift in Sources */,
 				BCF03C9F289E14A20034C16A /* Place.swift in Sources */,
 				BCF03C9A289E0C7A0034C16A /* HorizontalText.swift in Sources */,

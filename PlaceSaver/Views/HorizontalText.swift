@@ -18,6 +18,7 @@ struct HorizontalText: View {
                     .font(.title2)
                     .fontWeight(.bold)
                     .padding(.leading)
+                    .padding([.bottom, .top], 8)
             } else {
                 Text(content)
                     .padding(.leading)
@@ -29,6 +30,6 @@ struct HorizontalText: View {
 
 struct HorizontalText_Previews: PreviewProvider {
     static var previews: some View {
-        HorizontalText(content: "This is content", isHeadline: false)
+        HorizontalText(content: "This is content", isHeadline: true)
     }
 }

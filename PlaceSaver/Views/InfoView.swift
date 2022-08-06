@@ -29,10 +29,12 @@ struct InfoView: View {
                     .font(.title)
                     .scaledToFit()
                     .padding(.bottom)
-                VStack {
-                    HorizontalText(content: "Description", isHeadline: true).padding(.bottom, 8)
-                    HorizontalText(content: place.description, isHeadline: false)
-                }
+                HorizontalText(content: "Description", isHeadline: true)
+                HorizontalText(content: place.description, isHeadline: false)
+                HorizontalText(content: "Location", isHeadline: true)
+                InfoText(imageName: "mappin.circle", text: place.address)
+                MapView(coordinate: place.locationCoordinate)
+                    .frame(height: 250)
             }
             
         }
