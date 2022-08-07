@@ -88,7 +88,7 @@
                  "latitude": 10.372782101487084,
                  "longitude": 107.09859581188181
              },
-             "subImageList": ["cdvt-sub1","cdvt-sub2", "", "cdvt-sub3"]
+             "subImageList": ["cdvt-sub1","cdvt-sub2", "cdvt-sub3"]
            }
        ]
     },
