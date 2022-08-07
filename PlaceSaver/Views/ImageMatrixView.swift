@@ -12,6 +12,7 @@
 
 import SwiftUI
 
+//to display Images Grid
 struct ImageMatrixView: View {
     var imageNames : [String]
     

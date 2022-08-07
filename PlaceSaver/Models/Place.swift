@@ -24,7 +24,9 @@ struct Place: Identifiable, Codable{
     var image: Image {
         Image(imageName)
     }
-    var bgImageName: String //background image
+    
+    //background image
+    var bgImageName: String
     var bgImage: Image {
         Image(bgImageName)
     }
@@ -37,6 +39,7 @@ struct Place: Identifiable, Codable{
         )
     }
     
+    //list of images to display in Photos
     var subImageList: [String]
 }
 

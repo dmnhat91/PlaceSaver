@@ -7,7 +7,7 @@
   ID: s3715125
   Created  date: 06/08/2022
   Last modified: 06/08/2022
-  Acknowledgement: Ideas based on lecturer resources
+  Acknowledgement: Ideas based on lecturer resources and Apple documention about List
 */
 
 import SwiftUI

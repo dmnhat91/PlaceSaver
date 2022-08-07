@@ -16,7 +16,7 @@ import CoreLocation
 var places = decodeJsonFromJsonFileToPlace(jsonFileName: "places.json")
 var cities = decodeJsonFromJsonFileToCity(jsonFileName: "cities.json")
 
-// How to decode a json file into a struct
+//decode a json file into a Place struct
 func decodeJsonFromJsonFileToPlace(jsonFileName: String) -> [Place] {
     if let file = Bundle.main.url(forResource: jsonFileName, withExtension: nil){
         if let data = try? Data(contentsOf: file) {
@@ -34,6 +34,7 @@ func decodeJsonFromJsonFileToPlace(jsonFileName: String) -> [Place] {
     return [ ] as [Place]
 }
 
+//decode a json file into a City struct
 func decodeJsonFromJsonFileToCity(jsonFileName: String) -> [City] {
     if let file = Bundle.main.url(forResource: jsonFileName, withExtension: nil){
         if let data = try? Data(contentsOf: file) {

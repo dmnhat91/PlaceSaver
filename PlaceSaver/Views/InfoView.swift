@@ -33,12 +33,15 @@ struct InfoView: View {
                     .font(.title)
                     .scaledToFit()
                     .padding(.bottom)
+                
                 HorizontalText(content: "Description", isHeadline: true)
                 HorizontalText(content: place.description, isHeadline: false)
+                
                 HorizontalText(content: "Location", isHeadline: true)
                 InfoText(imageName: "mappin.circle", text: place.address)
                 MapView(place: place)
                     .frame(height: 250)
+                
                 HorizontalText(content: "Photos", isHeadline: true)
                 ImageMatrixView(imageNames: place.subImageList)
             }
